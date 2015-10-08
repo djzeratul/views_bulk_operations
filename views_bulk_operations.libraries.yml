@@ -1,0 +1,8 @@
+vbo.selectAll:
+  version: VERSION
+  js:
+    js/selectAll.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once

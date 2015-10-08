@@ -1,0 +1,3 @@
+views.field.vbo_node_bulk_form:
+  type: views_field_bulk_form
+  label: 'Node bulk form'

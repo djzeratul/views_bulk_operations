@@ -1,0 +1,5 @@
+name: 'Views bulk operations'
+type: module
+description: 'Provides a way of selecting multiple items and applying operations to them.'
+
+core: '8.x'

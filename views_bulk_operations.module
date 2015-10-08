@@ -1,0 +1,11 @@
+<?php
+
+function views_bulk_operations_views_data_alter(&$data) {
+  $data['node']['vbo_node_bulk_form'] = array(
+    'title' => t('Node operations bulk form (contrib)'),
+    'help' => t('Add a form element that lets you run operations on multiple nodes.'),
+    'field' => array(
+      'id' => 'vbo_node_bulk_form',
+    ),
+  );
+}

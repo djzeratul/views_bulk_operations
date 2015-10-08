@@ -1,0 +1,10 @@
+name: 'VBO configurable action test'
+type: module
+description: 'Helper module for testing configuarable actions with VBO.'
+
+core: '8.x'
+
+dependencies:
+  - views
+  - action
+  - views_bulk_operations

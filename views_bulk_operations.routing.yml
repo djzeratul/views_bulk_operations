@@ -1,0 +1,6 @@
+views_bulk_operations.configure_action:
+  path: '/admin/content/views-bulk-operations/configure/{action_id}'
+  defaults:
+    _form: '\Drupal\views_bulk_operations\Form\ConfigureAction'
+  requirements:
+    _access: 'TRUE'
